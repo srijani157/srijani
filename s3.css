@@ -1,0 +1,23 @@
+body{
+	margin: 20px;
+	font-family: 'Ma Shan Zheng', cursive;
+}
+h2{
+	font-size: 90px;
+	text-decoration: underline;
+}
+button{
+	font-family: fantacy;
+}
+button:hover{
+	
+}
+.dropdown-item{
+	font-family: fantacy;
+}
+p{
+	font-size: 2em;
+}
+img{
+	float: right;
+}

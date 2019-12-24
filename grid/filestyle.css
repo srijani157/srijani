@@ -1,0 +1,25 @@
+.zone{
+	margin: 2px;
+}
+/*.container{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}*/
+.container{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr; /*repeat(auto-fill,min(200px,1fr))--> indicates min size would be 200px and max-size would be 1fr*/
+	grid-template-rows: 1fr 1fr; /*auto-fill automatically fills according to the size of the web page*/
+	/*auto inspite of *fr would make the grid tightly fit to the content*/
+	/*justify-items: start|end|stretch; --> move sideways*/
+	/*align-items: start|end|; --> move up-down*/
+
+	/*also look grid-column*/
+	/*grid-column: start/end;*/ /*1/-1 indicates whole portion from first to last*/
+	/*same for grid row*/
+}
+img{
+	width: 300px;
+	height: 300px;
+}

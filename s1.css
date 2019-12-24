@@ -1,0 +1,14 @@
+table{
+	border: 2px solid black;
+	
+}
+tr{
+	transition: all 2s;
+}
+tr:hover{
+	transform: scale(0.9);
+}
+caption{
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 40px;
+}
